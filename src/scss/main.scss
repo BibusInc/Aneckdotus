@@ -1,0 +1,102 @@
+body{
+background-color: black;
+
+.first{
+    font-family: sans-serif ;
+    position: absolute;
+    font-size: 250%;
+    color: white;
+    top: 50px;
+    left: 870px;
+ } 
+
+
+
+
+
+.one{
+    font-family: sans-serif ;
+    position: absolute;
+    font-size: 250%;
+    color: white;
+    top: 120px;
+    left: 800px;
+
+border: 3px solid green;
+
+&:hover {
+        color: green;
+    }
+
+
+}
+.two{
+    font-family: sans-serif ;
+    position: absolute;
+    font-size: 250%;
+    color: white;
+     top: 190px;
+      left: 800px;
+border: 3px solid green;
+
+&:hover {
+        color: green;
+    }
+
+
+
+}
+
+.three{
+    font-family: sans-serif ;
+    position: absolute;
+    font-size: 250%;
+    color: white;
+     top: 260px;
+       left: 780px;
+
+border: 3px solid green;
+
+&:hover {
+        color: green;
+    }
+}
+
+.four{
+    font-family: sans-serif ;
+    position: absolute;
+    font-size: 250%;
+    color: black;
+     top: 330px;
+       left: 810px;
+&:hover {
+        color: green;
+    }
+}
+
+.my {
+    position: absolute;
+    animation: spin 5s linear infinite;
+    
+    font-size: 150%;
+    color: white;
+    top: 800px;
+    left: 850px;
+
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  33% { color: green; }
+  66% { color: blue; }
+  100% { color: red; }
+  }
+  }

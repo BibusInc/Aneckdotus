@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+body .first {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  top: 50px;
+  left: 870px;
+}
+
+body .one {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  top: 120px;
+  left: 800px;
+  border: 3px solid green;
+}
+
+body .one:hover {
+  color: green;
+}
+
+body .two {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  top: 190px;
+  left: 800px;
+  border: 3px solid green;
+}
+
+body .two:hover {
+  color: green;
+}
+
+body .three {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  top: 260px;
+  left: 780px;
+  border: 3px solid green;
+}
+
+body .three:hover {
+  color: green;
+}
+
+body .four {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 250%;
+  color: black;
+  top: 330px;
+  left: 810px;
+}
+
+body .four:hover {
+  color: green;
+}
+
+body .my {
+  position: absolute;
+  animation: spin 5s linear infinite;
+  font-size: 150%;
+  color: white;
+  top: 800px;
+  left: 850px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}

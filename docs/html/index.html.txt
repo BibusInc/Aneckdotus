@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Мой сайтик</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+	@@ -19,6 +19,6 @@
+			</ul>
+		</content>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
