@@ -1,15 +1,13 @@
 body{
 background-color: black;
 
-.first{
-    font-family: sans-serif ;
-    position: absolute;
-    font-size: 250%;
-    color: white;
-    top: 50px;
-    left: 870px;
- } 
 
+header{
+color:white;    
+font-family: sans-serif ;
+ margin-left:39%;
+ font-size: 250%;
+}
 
 
 
@@ -19,9 +17,11 @@ background-color: black;
     position: absolute;
     font-size: 250%;
     color: white;
-    top: 120px;
-    left: 800px;
-
+ margin-left: auto;
+    margin-right: auto;
+padding: 20px;
+    margin-top: auto;
+    margin-left:40%;
 border: 3px solid green;
 
 &:hover {
@@ -35,8 +35,9 @@ border: 3px solid green;
     position: absolute;
     font-size: 250%;
     color: white;
-     top: 190px;
-      left: 800px;
+    padding: 20px;
+   margin-top: 10%;
+    margin-left:40%;
 border: 3px solid green;
 
 &:hover {
@@ -52,8 +53,9 @@ border: 3px solid green;
     position: absolute;
     font-size: 250%;
     color: white;
-     top: 260px;
-       left: 780px;
+    margin-top: 20%;
+    margin-left:38.5%;
+    padding: 20px;
 
 border: 3px solid green;
 
@@ -67,8 +69,8 @@ border: 3px solid green;
     position: absolute;
     font-size: 250%;
     color: black;
-     top: 330px;
-       left: 810px;
+    margin-top: 30%;
+    margin-left:41%;
 &:hover {
         color: green;
     }
@@ -77,11 +79,11 @@ border: 3px solid green;
 .my {
     position: absolute;
     animation: spin 5s linear infinite;
-    
+  
     font-size: 150%;
-    color: white;
+    color: green;
     top: 800px;
-    left: 850px;
+    margin-left:10%;
 
 }
 @keyframes spin {
@@ -100,3 +102,23 @@ border: 3px solid green;
   100% { color: red; }
   }
   }
+
+
+  .my2 {
+    position: absolute;
+    animation: spin 5s linear infinite;
+  
+    font-size: 150%;
+    color: green;
+    top: 800px;
+    margin-left:80%;
+
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
